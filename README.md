@@ -1,8 +1,11 @@
 # Case Study: Bowling
 
+This is the solution which alok, callum, daniel, kenny and martin came up with.
+
 Solve the problem below as a group using TDD.
 
 The problem is taken from [codingdojo.org](http://codingdojo.org/kata/Bowling/).
+
 
 ## Problem Specification
 
@@ -48,8 +51,6 @@ More info on the rules here: [How to Score for Bowling](http://www.topendsports.
     
 
 - Output, the total score.
-
-- 
 
 ## Suggested Test Cases
 
