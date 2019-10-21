@@ -35,11 +35,27 @@ How bowling scores are calculated:
 
 More info on the rules here: [How to Score for Bowling](http://www.topendsports.com/sport/tenpin/scoring.htm).
 
+## Task
+
+- Input, feed in the scores (Space separated String). 
+    - InputSting.split(" ").reverse
+    
+    - isSpare isStrike
+    
+    - List[Frame]
+    
+    - Frame(Int, Option[Int])
+    
+
+- Output, the total score.
+
+- 
+
 ## Suggested Test Cases
 
 "X" indicates a strike, "/" indicates a spare, "-" indicates a miss:
 
-- `X X X X X X X X X X X X` (12 rolls: 12 strikes) = 10 frames \* 30 points = 300
+- `X X X X X X X X X XXX` (12 rolls: 12 strikes) = 10 frames \* 30 points = 300
 - `9- 9- 9- 9- 9- 9- 9- 9- 9- 9-` (20 rolls: 10 pairs of 9 and miss) = 10 frames \* 9 points = 90
 - `5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/5` (21 rolls: 10 pairs of 5 and spare, with a final 5) = 10 frames \* 15 points = 150
 
